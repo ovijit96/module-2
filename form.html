@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    
+        <form>
+            <fieldset>
+        <legend>Please Fill up the form</legend>
+        <label for="">Name: <br><input placeholder="Fullname" type="text" name="name" id="name" required></label><br><br>
+        <label for="">Email: <br><input placeholder="name@company.com" type="email" name="email" id="email" required></label><br><br>
+        <label for="">Password: <br><input placeholder="Strong password" type="password" name="password" id="password" required></label><br><br>
+        <label for="">Age: <br><input placeholder="Age" type="number" name="Age" id="Age" min="18" max="60"></label><br><br>
+        <label for="">Date of Birth: <br><input placeholder="Birth Date" type="date" name="date" id="date" required></label><br><br>
+        <label for="">Time: <br><input placeholder="exact time" type="time" name="time" id="time" min="08:00" max="17:00" step="60" ></label><br><br>
+        <label for="">File: <br><input placeholder="Choose File" type="file" name="file" id="file" required></label><br><br>
+        <label for="">Gender: <br><input type="radio" name="Gender" id="Gender">Male</label>
+        <input type="radio" name="Gender" id="Gender">Female</label><br><br>
+        <label for="">Select Country: <select name="Country" id="Country" required>
+            <option value="">Select Country</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Armenia">Armenia</option>
+            <option value="Australia">Australia</option>
+            <option value="Austria">Austria</option>
+            <option value="Azerbaijan">Azerbaijan</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="Canada">Canada</option>
+            <option value="China">China</option>
+            <option value="Cuba">Cuba</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Egypt">Egypt</option>
+        </select></label><br><br>
+        <label for="">Volume: <br><input type="range" name="Volume" id="Volume"></label><br><br>
+        <label for="">Your Massage: </label><br>
+        <textarea name="Massage" id="Massage" rows="6" cols="40" placeholder="Type your message....."required></textarea><br>
+        <input type="submit" value="Submit">
+        
+
+    </fieldset>
+</form>
+    
+    
+</body>
+</html>
